@@ -23,12 +23,16 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that assi
 
 1. Install required packages:
    ```bash
-   pip install llama-index openai langchain langchain_community langchain-openai faiss-cpu arxiv serpapi google-search-results requests beautifulsoup4 streamlit
+   pip install -r requirements.txt
    ```
 
-2. Set API keys securely (e.g., in environment variables or notebook cell):
-   - `OPENAI_API_KEY`
-   - `SERPAPI_API_KEY`
+2. Add your API keys:
+   - Copy `.env.example` to `.env`
+   - Insert your OpenAI and SerpAPI keys:
+     ```
+     OPENAI_API_KEY=your_openai_api_key_here
+     SERPAPI_API_KEY=your_serpapi_api_key_here
+     ```
 
 3. Run the notebook and interact with the chatbot.
 

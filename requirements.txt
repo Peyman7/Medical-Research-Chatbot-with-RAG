@@ -1,0 +1,13 @@
+llama-index
+openai
+langchain
+langchain_community
+langchain-openai
+faiss-cpu
+arxiv
+serpapi
+google-search-results
+requests
+beautifulsoup4
+python-dotenv
+streamlit
