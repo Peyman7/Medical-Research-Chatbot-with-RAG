@@ -20,22 +20,36 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that assi
 - Google Scholar via SerpAPI
 - Web scraping via BeautifulSoup
 
-## Setup
+## ⚙️ Setup
 
-1. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 1. Clone and Configure
+```bash
+cp .env.example .env
+# Add your OpenAI and SerpAPI keys to the .env file
+```
 
-2. Add your API keys:
-   - Copy `.env.example` to `.env`
-   - Insert your OpenAI and SerpAPI keys:
-     ```
-     OPENAI_API_KEY=your_openai_api_key_here
-     SERPAPI_API_KEY=your_serpapi_api_key_here
-     ```
+### 2. Run with Docker
+```bash
+docker build -t medagent .
+docker run -p 8501:8501 --env-file .env medagent
+```
 
-3. Run the notebook and interact with the chatbot.
+Or use Docker Compose:
+```bash
+docker-compose up --build
+```
+
+### 3. Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+## 📄 .env File Example
+```
+OPENAI_API_KEY=your_openai_api_key
+SERPAPI_API_KEY=your_serpapi_api_key
+```
 
 ## Usage
 
