@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy files
 COPY requirements.txt .
 COPY .env.example .
-COPY README_MedAgent.md .
-COPY MedAgent.ipynb .
+COPY README.md .
+COPY MedRAG.ipynb .
 
 # Install dependencies
 RUN pip install --no-cache-dir --upgrade pip && \
