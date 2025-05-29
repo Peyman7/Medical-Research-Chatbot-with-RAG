@@ -5,10 +5,10 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that assi
 
 ## Features
 
-- 🔍 Fetches medical papers from arXiv, PubMed, and Google Scholar
-- 🧠 Summarizes abstracts using OpenAI's GPT-4
-- 🤖 Builds a chatbot using LangChain with FAISS vector storage
-- 🗂️ Uses `ConversationSummaryBufferMemory` for context retention
+- Fetches medical papers from arXiv, PubMed, and Google Scholar
+- Summarizes abstracts using OpenAI's GPT-4
+- Builds a chatbot using LangChain with FAISS vector storage
+- Uses `ConversationSummaryBufferMemory` for context retention
 
 ## Technologies Used
 
