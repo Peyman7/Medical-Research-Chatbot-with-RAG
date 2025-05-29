@@ -18,6 +18,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that assi
 - FAISS
 - arXiv and PubMed APIs
 - Google Scholar via SerpAPI
+- Web scraping via BeautifulSoup
 
 ## Setup
 
