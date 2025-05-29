@@ -20,7 +20,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that assi
 - Google Scholar via SerpAPI
 - Web scraping via BeautifulSoup
 
-## ⚙️ Setup
+## Setup
 
 ### 1. Clone and Configure
 ```bash
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## 📄 .env File Example
+## .env File Example
 ```
 OPENAI_API_KEY=your_openai_api_key
 SERPAPI_API_KEY=your_serpapi_api_key
