@@ -41,6 +41,4 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that assi
 - Modify the `query` variable to target your research topic of interest.
 - The chatbot will retrieve, embed, and respond based on summarized content.
 
-## Author
 
-Developed by [Your Name], powered by LangChain and OpenAI.
